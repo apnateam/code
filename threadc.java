@@ -4,7 +4,7 @@ public class threadc implements runnable{
 			Thread t;
 			
 	threadc(){
-		t=(this,"my thread");
+		t=(this,"my thread sudhir chaurasiya");
 		System.out.println("child thread" +t);
 		t.start();
 	}
